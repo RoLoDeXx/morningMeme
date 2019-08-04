@@ -18,7 +18,8 @@ const sendMorningMail = (email, name) => {
     subject: "Here's your MorningMeme",
     text: `Here\'s your package ${name}.`,
     html:
-      '<img src="https://cnet3.cbsistatic.com/img/KOI0iK4uPAbP1g7B_cnVqSLpuic=/756x567/2019/04/15/fbcaf3e4-0750-47d8-9609-4eea24206dc3/spacexstarship.jpg">'
+      '<img src="https://cnet3.cbsistatic.com/img/KOI0iK4uPAbP1g7B_cnVqSLpuic=/756x567/2019/04/15/fbcaf3e4-0750-47d8-9609-4eea24206dc3/spacexstarship.jpg">',
+    sendAt: 1
   });
 };
 
